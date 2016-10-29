@@ -3,6 +3,14 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+
+ /* 
+ Their hover color: #fec503;
+ My bright color: #00ffff;
+ Trying: #00cccc;
+ */
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -11,12 +19,12 @@ body {
   color: #777777;
 }
 section h3.section-subheading h3.text-teal{
-  color:#00ffff;
+  color:#00cccc;
   font-size:30px;
   font-weight:bold;
 }
 .text-primary {
-  color: #00ffff;
+  color: #00cccc;
 }
 p {
   font-size: 14px;
@@ -33,13 +41,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #00ffff;
+  color: #00cccc;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #00cccc;
 }
 h1,
 h2,
@@ -62,8 +70,8 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #00ffff;
-  border-color: #00ffff;
+  background-color: #00cccc;
+  border-color: #00cccc;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -74,7 +82,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
+  background-color: #00cccc;
   border-color: #f6bf01;
 }
 .btn-primary:active,
@@ -97,17 +105,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #00ffff;
-  border-color: #00ffff;
+  background-color: #00cccc;
+  border-color: #00cccc;
 }
 .btn-primary .badge {
-  color: #00ffff;
+  color: #00cccc;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #00ffff;
-  border-color: #00ffff;
+  background-color: #00cccc;
+  border-color: #00cccc;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -121,7 +129,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
+  background-color: #00cccc;
   border-color: #f6bf01;
 }
 .btn-xl:active,
@@ -144,11 +152,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #00ffff;
-  border-color: #00ffff;
+  background-color: #00cccc;
+  border-color: #00cccc;
 }
 .btn-xl .badge {
-  color: #00ffff;
+  color: #00cccc;
   background-color: white;
 }
 .navbar-custom {
@@ -156,21 +164,21 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #00ffff;
+  color: #fff;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #fff;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #00ffff;
-  border-color: #00ffff;
+  background-color: #00cccc;
+  border-color: #00cccc;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -178,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #00ffff;
+  background-color: #00cccc;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -189,18 +197,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #00ffff;
+  color: #00cccc;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #00ffff;
+  background-color: #00cccc;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #00cccc;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -228,6 +236,7 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
+    color: #00cccc;
   }
 }
 header {
@@ -319,7 +328,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: #00cccc;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -427,7 +436,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #00ffff;
+  background-color: #00cccc;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -589,7 +598,7 @@ section#contact .form-group textarea.form-control {
   height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #00ffff;
+  border-color: #00cccc;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
@@ -643,8 +652,8 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #00ffff;
-  color:#00ffff;
+  background-color: #00cccc;
+  color:#00cccc;
   height: 50px;
   width: 50px;
   border-radius: 100%;
@@ -659,8 +668,8 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #00ffff;
-  color:#00ffff;
+  background-color: #00cccc;
+  color:#00cccc;
 }
 .btn:focus,
 .btn:active,
@@ -744,12 +753,14 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #00ffff;
+  background: #00cccc;
 }
 ::selection {
   text-shadow: none;
-  background: #00ffff;
+  background: #00cccc;
 }
+
+
 img::selection {
   background: transparent;
 }
@@ -757,5 +768,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #00ffff;
+  webkit-tap-highlight-color: #00cccc;
 }
